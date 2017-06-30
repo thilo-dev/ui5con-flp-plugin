@@ -1,0 +1,9 @@
+{
+	"applications": {},
+	"bootstrapPlugins": {
+		"ui5con": {
+			"component": "my.cool.plugin",
+			"url": "../../../../../"
+		}
+	}
+}

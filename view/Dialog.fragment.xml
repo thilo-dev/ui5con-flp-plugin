@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog title="Add Bookmark">
+		<content>
+			<VBox id="CoolVBOX" class="sapUiTinyMargin">
+				<Label text="Bookmark Title"/>
+				<Input value="{/title}" placeholder="please enter a title"/>
+				<Label text="Bookmark URL"/>
+				<Input value="{/url}" placeholder="and an URL"/>
+			</VBox>
+		</content>
+		<beginButton>
+			<Button text="Close Dialog" press="onCloseDialog"/>
+		</beginButton>
+		<endButton>
+			<Button text="Create Bookmark" press="onCreateBookmark"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>
